@@ -1,4 +1,5 @@
 import { Header } from "./components/header";
+import { Post } from "./components/post";
 import { Storie } from "./components/storie";
 
 export function App() {
@@ -8,6 +9,7 @@ export function App() {
       <div className="flex py-2 px-3">
         <Storie />
       </div>
+      <Post />
     </>
   );
 }
