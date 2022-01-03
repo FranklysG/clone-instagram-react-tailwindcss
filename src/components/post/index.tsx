@@ -15,14 +15,14 @@ export function Post() {
       {/* avatar e o nome e os 3 pontinhos */}
       <section className="flex justify-between items-center p-3">
         <div className="flex">
-          <img src={avatar} className="w-8 h-8 rounded-full m-1" />
+          <img src={avatar} className="w-8 h-8 rounded-full m-1" alt=""/>
           <strong className="text-bold text-sm m-2 ">franklysg</strong>
         </div>
         <FontAwesomeIcon icon={faEllipsisH} />
       </section>
       {/* foto, coração do like, coment, send e salvar do outro lado */}
       <section className="">
-        <img src={firstFeed} />
+        <img src={firstFeed} alt=""/>
         <div className="flex items-center justify-between py-1">
           <div className="">
             <FontAwesomeIcon icon={faHeart} size="2x" className="px-2" />
